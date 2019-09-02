@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Multi-scale Ultra-high Resolution (MUR) SST Analysis Anomaly fv04.1, Global, 0.01&#xb0;, 2002-present, Daily</name>
+  <description><![CDATA[Time: 2018-04-28T09:00:00Z<br />
+Data courtesy of NOAA NMFS SWFSC ERD and NOAA NESDIS CoastWatch WCRN<br />
+<a href="https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.html?sstAnom">Download data from this dataset.</a><br />
+    ]]></description>
+  <Region>
+    <Lod><minLodPixels>2</minLodPixels></Lod>
+    <LatLonAltBox>
+      <west>-179.99</west>
+      <east>180.0</east>
+      <south>-89.99</south>
+      <north>89.99</north>
+    </LatLonAltBox>
+  </Region>
+  <NetworkLink>
+    <name>1_0_0_0</name>
+    <Region>
+      <Lod><minLodPixels>256</minLodPixels></Lod>
+      <LatLonAltBox>
+        <west>-179.99</west>
+        <east>0.0</east>
+        <south>-89.99</south>
+        <north>0.0</north>
+      </LatLonAltBox>
+    </Region>
+    <Link>
+      <href>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.kml?sstAnom%5B(2018-04-28T09%3A00%3A00Z)%5D%5B(-89.99)%3A(0.0)%5D%5B(-179.99)%3A(0.0)%5D&amp;.draw=surface&amp;.vars=longitude&#37;7Clatitude&#37;7CsstAnom&amp;.colorBar=&#37;7C&#37;7C&#37;7C&#37;7C&#37;7C&amp;.bgColor=0xffccccff</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+  <NetworkLink>
+    <name>1_0_0_1</name>
+    <Region>
+      <Lod><minLodPixels>256</minLodPixels></Lod>
+      <LatLonAltBox>
+        <west>-179.99</west>
+        <east>0.0</east>
+        <south>0.0</south>
+        <north>89.99</north>
+      </LatLonAltBox>
+    </Region>
+    <Link>
+      <href>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.kml?sstAnom%5B(2018-04-28T09%3A00%3A00Z)%5D%5B(0.0)%3A(89.99)%5D%5B(-179.99)%3A(0.0)%5D&amp;.draw=surface&amp;.vars=longitude&#37;7Clatitude&#37;7CsstAnom&amp;.colorBar=&#37;7C&#37;7C&#37;7C&#37;7C&#37;7C&amp;.bgColor=0xffccccff</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+  <NetworkLink>
+    <name>1_0_0_2</name>
+    <Region>
+      <Lod><minLodPixels>256</minLodPixels></Lod>
+      <LatLonAltBox>
+        <west>0.0</west>
+        <east>180.0</east>
+        <south>-89.99</south>
+        <north>0.0</north>
+      </LatLonAltBox>
+    </Region>
+    <Link>
+      <href>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.kml?sstAnom%5B(2018-04-28T09%3A00%3A00Z)%5D%5B(-89.99)%3A(0.0)%5D%5B(0.0)%3A(180.0)%5D&amp;.draw=surface&amp;.vars=longitude&#37;7Clatitude&#37;7CsstAnom&amp;.colorBar=&#37;7C&#37;7C&#37;7C&#37;7C&#37;7C&amp;.bgColor=0xffccccff</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+  <NetworkLink>
+    <name>1_0_0_3</name>
+    <Region>
+      <Lod><minLodPixels>256</minLodPixels></Lod>
+      <LatLonAltBox>
+        <west>0.0</west>
+        <east>180.0</east>
+        <south>0.0</south>
+        <north>89.99</north>
+      </LatLonAltBox>
+    </Region>
+    <Link>
+      <href>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.kml?sstAnom%5B(2018-04-28T09%3A00%3A00Z)%5D%5B(0.0)%3A(89.99)%5D%5B(0.0)%3A(180.0)%5D&amp;.draw=surface&amp;.vars=longitude&#37;7Clatitude&#37;7CsstAnom&amp;.colorBar=&#37;7C&#37;7C&#37;7C&#37;7C&#37;7C&amp;.bgColor=0xffccccff</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+  <GroundOverlay>
+    <drawOrder>1</drawOrder>
+    <Icon>
+      <href>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41anom1day.transparentPng?sstAnom%5B(2018-04-28T09%3A00%3A00Z)%5D%5B(-89.99)%3A64%3A(89.99)%5D%5B(-179.99)%3A64%3A(180.0)%5D&amp;.draw=surface&amp;.vars=longitude&#37;7Clatitude&#37;7CsstAnom&amp;.colorBar=&#37;7C&#37;7C&#37;7C&#37;7C&#37;7C&amp;.bgColor=0xffccccff</href>
+    </Icon>
+    <LatLonBox>
+      <west>-179.99</west>
+      <east>180.0</east>
+      <south>-89.99</south>
+      <north>89.99</north>
+    </LatLonBox>
+  </GroundOverlay>
+  <ScreenOverlay id="Logo">
+    <description>http://coastwatch.pfeg.noaa.gov/erddap</description>
+    <name>Logo</name>
+    <Icon><href>http://coastwatch.pfeg.noaa.gov/erddap/images/nlogo.gif</href></Icon>
+    <overlayXY x="0.005" y=".04" xunits="fraction" yunits="fraction"/>
+    <screenXY x="0.005" y=".04" xunits="fraction" yunits="fraction"/>
+    <size x="0" y="0" xunits="pixels" yunits="pixels"/>
+  </ScreenOverlay>
+</Document>
+</kml>
